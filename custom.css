@@ -1,0 +1,66 @@
+﻿.embed #container form.wufoo {
+	width: 329px !important;
+	margin: 0 auto !important;
+}
+.embed #container.confirm form.wufoo {
+    width: 600px !important;
+}
+.wufoo label.desc {
+	font: 18px/26px Arial, sans-serif;
+	color: #444;
+	font-weight: bold;
+}
+.wufoo input.text {
+	width: 300px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    border: solid 2px #444;
+    display: block;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.wufoo input.submit {
+	width: 200px;
+	height: 50px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, Sans-Serif;
+    font-weight: bold;
+    display: block;
+    color: #fff;
+    line-height: 50px;
+    background-color: #2f8be8;
+    border: none;
+}
+.wufoo input[type="submit"]:hover {
+    background-color: #106bc6;
+    cursor: pointer;
+}
+.wufoo form li {
+	padding: 0;
+}
+li.buttons 
+{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+li.buttons div 
+{
+	width: 200px;
+	margin: 0 auto;
+}
+.wufoo .info, form span.req {
+	display: none !important;
+}
+.embed .confirm h2 {
+    font: 24px/34px Arial, sans-serif;
+    color: #2f8be8;
+    font-weight: bold;
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+}

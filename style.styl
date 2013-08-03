@@ -1,0 +1,389 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+  margin 0
+  padding 0
+  border 0
+  font-size 100%
+  font inherit
+  vertical-align baseline
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section
+  display block
+
+body
+  line-height 1
+  font 18px/24px 'latoregular'
+  color #444
+
+blockquote, q
+  quotes none
+
+blockquote:before, blockquote:after,
+q:before, q:after
+  content ''
+  content none
+
+table
+  border-collapse collapse
+  border-spacing 0
+
+a
+  text-decoration none
+
+img
+  border 0
+  &.alignleft
+    margin 5px 10px 0 0
+  &.alignright
+    margin 5px 0 0 10px
+
+.clearfix
+  display inline-block
+  &:after
+    content "."
+    display block
+    clear both
+    visibility hidden
+    line-height 0
+    height 0
+
+html[xmlns]
+  .clearfix
+    display block
+
+*
+  html
+    .clearfix
+      height 1%
+
+.alignleft
+  float left
+
+.alignright
+  float right
+
+.aligncenter
+  display block
+  margin-left auto
+  margin-right auto
+
+html, body
+  width 100%
+  margin 0
+  padding 0
+
+#wrapper
+  margin 35px 0 0
+  overflow hidden
+
+#header
+  width 1025px
+  margin 0 auto
+  h1
+    a
+      font 28px 'latolight'
+      color #444
+      border-bottom solid 1px #444
+      float left
+  ul
+    list-style none
+    float right
+    li
+      float left
+      font 14px 'latoregular'
+      color #4a4a4a
+      line-height 40px
+      margin-left 60px
+    li#phone
+      background url(images/phone.png) no-repeat left center
+      padding-left 17px
+      margin-bottom 10px
+    li#email
+      background url(images/email.png) no-repeat left center
+      padding-left 20px
+      margin-bottom 5px
+      a
+        text-decoration underline
+        color #4a4a4a
+        &:hover
+          color #121212
+    li#login
+      a
+        background-color #4a4a4a
+        width 146px
+        height 40px
+        -moz-border-radius 5px
+        -webkit-border-radius 5px
+        -khtml-border-radius 5px
+        border-radius 5px
+        text-align center
+        font-family 'latobold'
+        color #fff
+        display block
+        &:hover
+          background-color #373737
+
+#content
+  position relative
+  h2
+    font 48px 'latoregular'
+    color #2f8be8
+    text-align center
+  h3
+    font 24px/44px 'latoregular'
+    color #4a4a4a
+    text-align center
+  h4
+    font 18px/24px 'latoregular'
+    color #fff
+    text-align center
+  #dashboard
+    h4
+      font-family 'latolight'
+      span
+        font-family 'latobold'
+  #features
+    h3
+      font-family 'latoblack'
+      text-align left
+      line-height 36px
+    p
+      font 18px/26px 'latolight'
+      color #444
+      margin-top 25px
+
+#content h3 span, #content h4 span
+  font-family 'latoblack'
+
+#headline
+  margin 115px 0 90px 0
+
+#cta1
+  width 460px
+  margin 0 auto
+  ul
+    list-style none
+    float left
+    margin-bottom 45px
+  li
+    float left
+    margin 0 15px
+    line-height 10px
+    text-align center
+    font 16px 'latoregular'
+    color #2f8be8
+    a
+      width 200px
+      height 50px
+      -moz-border-radius 5px
+      -webkit-border-radius 5px
+      -khtml-border-radius 5px
+      border-radius 5px
+      text-align center
+      font-family 'latobold'
+      display block
+      color #fff
+      line-height 50px
+    a#demo
+      background-color #4a4a4a
+      &:hover
+        background-color #373737
+    a#sign
+      background-color #2f8be8
+      margin-bottom 15px
+      &:hover
+        background-color #106bc6
+
+#dashboard
+  background-color #4a4a4a
+  float left
+  width 100%
+  padding-bottom 65px
+  margin-bottom 50px
+  ul
+    width 1025px
+    margin -50px auto 0
+    list-style none
+    position relative
+    z-index 999
+  li
+    width 313px
+    float left
+    margin-left 43px
+    &:first-child
+      margin-left 0
+  img
+    margin-bottom 40px
+
+#didyouknow
+  width 1280px
+  margin 50px auto 75px
+
+#didContainer
+  margin 50px auto 0
+  width 630px
+  text-align center
+  h3
+    font-family 'latoblack'
+    color #444
+    margin-bottom 10px
+  ul
+    list-style none
+    margin-top 50px
+    width 615px
+  li
+    background url(images/question-bullet.png) no-repeat left center
+    padding-left 75px
+    text-align left
+    margin-bottom 30px
+    span
+      font-family 'latoblack'
+
+#survey
+  width 100%
+  height 215px
+  float left
+  background url(images/down-arrow.png) no-repeat center top #2f8be8
+  p
+    color #fff
+    width 650px
+    margin 0 auto
+    text-align center
+    font 24px/36px 'latolight'
+    padding-top 60px
+  span
+    font-family 'latobold'
+
+#features
+  float left
+  width 100%
+
+#practice, #profit, #fast, #fit, #support, #contract
+  width 100%
+  float left
+  padding 70px 0
+
+#profit .featureContent, #fit .featureContent, #contract .featureContent
+  margin-left 60px
+
+#practice
+  .image
+    background url(images/health-practice.png) no-repeat left bottom
+    height 425px
+
+#profit
+  .image
+    background url(images/profitable-decisions.png) no-repeat right center
+    height 422px
+
+#fast
+  .image
+    background url(images/fast-and-simple.png) no-repeat center center
+    height 249px
+
+#fit
+  .image
+    background url(images/fits-your-business.png) no-repeat center center
+    height 205px
+  .featureContent
+    margin-top 38px
+
+#support
+  .image
+    background url(images/customer-support.png) no-repeat center center
+    height 180px
+
+#contract
+  .image
+    background url(images/no-contracts.png) no-repeat center center
+    height 350px
+
+#cta2
+  width 1025px
+  margin 0 auto
+  position relative
+  h3
+    font-family 'latoblack'
+    margin-bottom 25px
+  p
+    font 18px/26px 'latolight'
+    margin-bottom 90px
+
+#cta2Content
+  width 600px
+  margin 100px auto
+  text-align center
+
+#leftdivider, #rightdivider
+  position absolute
+  bottom 53px
+  width 381px
+  height 1px
+  background url(images/divider.png) no-repeat
+
+#leftdivider
+  left 0
+  background-position left bottom
+
+#rightdivider
+  right 0
+  background-position right bottom
+
+#footer
+  font 12px 'latobold'
+  clear both
+  overflow hidden
+  color #636363
+  background-color #181818
+  width 100%
+  height 111px
+  ul
+    li
+      margin-right 62px
+      line-height 111px
+
+#footer a,
+#footer li a:link,
+#footer li a:visited,
+#footer a:hover,
+#footer a:active
+  color #ababab
+  text-decoration underline
+
+#footer ul, #footer ul li
+  list-style none
+  float left
+
+#footerContainer
+  width 1025px
+  margin 0 auto
+
+#copyright
+  line-height 111px
+  float right
+
+.graybg
+  background-color #f8f8f8
+
+.image
+  width 599px
+
+.featureContent
+  width 430px
+
+.featureContainer
+  width 1090px
+  margin 0 auto
+
